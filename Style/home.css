@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&family=Rajdhani:wght@600&display=swap');
+#Home {
+    align-items: center;
+    background-color: var(--dark);
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    padding-top: 4.25rem;
+}
+
+.home__image {
+    align-self: center;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.home__image img {
+    width: 400px;
+
+}
+
+.home__text {
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family:'Roboto Mono', monospace;
+    font-size: 30px;
+    font-style: bold;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.home__text-icons {
+    margin-top: 13px;
+}
+
+.home__text-icons a {
+    align-items: center;
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.home__text-icons a i {
+    border-radius: 5px;
+}
+
+.fa {
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #5a6169;
+    color: white;
+}
+
+.fa-instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.fa-codepen {
+    background: #f3f7f2c7;
+    color: rgb(19, 18, 20);
+    height: 25px;
+    width: 30px;
+}
+
+@media screen and (max-width:768px){
+    #Home{
+        height: 500px;
+    }
+    .home__image{
+        display: none;
+    }
+
+    .home__text{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1024px){
+    #Home{
+        width: 100%;
+        justify-content: center;
+    }
+    .home__image{
+        display: none;
+    }
+    .home__text{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        font-size: 35px;
+        text-decoration:line-through;
+    }
+    
+}

@@ -1,0 +1,7 @@
+.rodape{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: bold;
+    background: rgb(43, 43, 42);
+    color: var(--sky);
+}
