@@ -17,7 +17,7 @@
 
 .home__image img {
     width: 400px;
-
+    animation: flutuar 1s infinite alternate ease-in-out;
 }
 
 .home__text {

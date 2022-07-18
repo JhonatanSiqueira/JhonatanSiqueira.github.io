@@ -12,6 +12,18 @@
     --sky: #DFF6FF;
 }
 
+/*ANIMAÇÃO EFEITO FLUTUANTE*/
+@keyframes flutuar {
+    0%{
+    transform: translateY(0)
+}
+    100%{
+    transform: translateY(-30px);
+}
+}
+
+
+
 /* CABEÇALHO */
 .header{
     align-items: center;
@@ -23,6 +35,7 @@
     justify-content: space-evenly;
     position:fixed;
     width: 100%; 
+    z-index: 1;
 }
 
 .header .header__logo {
