@@ -8,6 +8,7 @@
     background: linear-gradient(45deg, #06283D 0%, #06283d9c 25%, #0a6fb3 50%, #1c5cbd 75%, #1363DF 100%);
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
 .feedback__title{
@@ -63,6 +64,10 @@ form label, form legend {
 }
 
 @media screen and (max-width:768px){
+    #Feedback{
+        width: 100%;
+    }
+
     .mensagem{
         width: 50%;
     }

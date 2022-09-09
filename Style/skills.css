@@ -68,7 +68,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
     .line {
         display: none;
     }
@@ -99,6 +99,12 @@
 
     .list-soft {
         padding: 0;
+    }
+}
+
+@media screen and (min-width:767px){
+    #skills{
+        width: 100vw;
     }
 }
 
